@@ -1,0 +1,297 @@
+INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
+INFO: kbplacer_plugin_action.py:71: Python version: '3.13.7 (main, Sep  9 2025, 16:20:24) [GCC 15.2.1 20250813]'
+INFO: kbplacer_plugin_action.py:72: KiCad version: 8.0.8 with 4.2.3 gtk3 (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:631: Language: en
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "/home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -9.58, "y": 2.53, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'c6', 'r0'}): ['S7'], frozenset({'r4', 'c0'}): ['S29'], frozenset({'c2', 'r0'}): ['S3'], frozenset({'r2', 'c5'}): ['S20'], frozenset({'r2', 'c2'}): ['S17'], frozenset({'c5', 'r0'}): ['S6'], frozenset({'r1', 'c4'}): ['S12'], frozenset({'r3', 'c1'}): ['S23'], frozenset({'r3', 'c0'}): ['S22'], frozenset({'r6', 'c1'}): ['S37'], frozenset({'r2', 'c3'}): ['S18'], frozenset({'c0', 'r0'}): ['S1'], frozenset({'r1', 'c3'}): ['S11'], frozenset({'c3', 'r0'}): ['S4'], frozenset({'r2', 'c6'}): ['S21'], frozenset({'c1', 'r7'}): ['S39'], frozenset({'r4', 'c4'}): ['S33'], frozenset({'r6', 'c0'}): ['S36'], frozenset({'c1', 'r0'}): ['S2'], frozenset({'r1', 'c6'}): ['S14'], frozenset({'r3', 'c6'}): ['S28'], frozenset({'r1', 'c2'}): ['S10'], frozenset({'c1', 'r1'}): ['S9'], frozenset({'c1', 'r2'}): ['S16'], frozenset({'r1', 'c5'}): ['S13'], frozenset({'r1', 'c0'}): ['S8'], frozenset({'r3', 'c5'}): ['S27'], frozenset({'r3', 'c4'}): ['S26'], frozenset({'r2', 'c0'}): ['S15'], frozenset({'r4', 'c3'}): ['S32'], frozenset({'r4', 'c2'}): ['S31'], frozenset({'r2', 'c4'}): ['S19'], frozenset({'r4', 'c5'}): ['S34'], frozenset({'r3', 'c2'}): ['S24'], frozenset({'r4', 'c6'}): ['S35'], frozenset({'c2', 'r7'}): ['S40'], frozenset({'c0', 'r7'}): ['S38'], frozenset({'r0', 'c4'}): ['S5'], frozenset({'r3', 'c3'}): ['S25'], frozenset({'c1', 'r4'}): ['S30']})
+DEBUG: key_placer.py:145: Diodes by switch: {'S31': ['D31'], 'S5': ['D5'], 'S1': ['D1'], 'S13': ['D13'], 'S22': ['D22'], 'S20': ['D20'], 'S40': ['D40'], 'S32': ['D32'], 'S18': ['D18'], 'S10': ['D10'], 'S23': ['D23'], 'S25': ['D25'], 'S8': ['D8'], 'S24': ['D24'], 'S12': ['D12'], 'S26': ['D26'], 'S14': ['D14'], 'S21': ['D21'], 'S37': ['D37'], 'S17': ['D17'], 'S3': ['D3'], 'S28': ['D28'], 'S7': ['D7'], 'S30': ['D30'], 'S34': ['D34'], 'S15': ['D15'], 'S33': ['D33'], 'S4': ['D4'], 'S27': ['D27'], 'S35': ['D35'], 'S11': ['D11'], 'S19': ['D19'], 'S29': ['D29'], 'S16': ['D16'], 'S38': ['D38'], 'S9': ['D9'], 'S6': ['D6'], 'S36': ['D36'], 'S2': ['D2'], 'S39': ['D39']}
+INFO: kle_serial.py:931: User layout: [[{'y': 1, 'x': 14.75}, '8\n(\n\n[\n3'], [{'y': -0.75, 'x': 13.75}, '7\n/\n\n{\n2', {'x': 1}, '9\n)\n\n]\n4'], [{'y': -0.75, 'x': 12.75}, '6\n&\n\n\n1'], [{'y': -0.5, 'x': 14.75}, 'I\n\n\n\n10'], [{'y': -0.75, 'x': 13.75}, 'U\n\n\n\n9', {'x': 1}, 'O\n\n\n\n11'], [{'y': -0.75, 'x': 12.75}, 'Y\n\n\n\n8'], [{'y': -0.5, 'x': 14.75}, 'K\n\n\n\n17'], [{'y': -0.75, 'x': 13.75}, 'J\n\n\n\n16', {'x': 1}, 'L\n\n\n\n18'], [{'y': -0.75, 'x': 12.75}, 'H\n\n\n\n15'], [{'y': -0.5, 'x': 14.75}, 'M\n\n\n\n24'], [{'y': -0.75, 'x': 13.75}, 'N\n\n\n\n23', {'x': 1}, ';\n,\n\n\n25'], [{'y': -0.75, 'x': 12.75}, 'B\n\n\n\n22'], [{'y': -0.5, 'x': 14.75, 'a': 7}, '\n\n\n\n31'], [{'y': -0.75, 'x': 13.75}, '\n\n\n\n30', {'x': 1}, '\n\n\n\n32'], [{'rx': 0.25, 'y': 1.5, 'x': 16.5, 'a': 4}, '0\n=\n\n}\n5', '?\n+\n\n\\\n6', {'a': 7, 'w': 1.25}, '\n\n\n\n7'], [{'x': 16.5, 'a': 4}, 'P\n\n\n\n12', 'Å\n\n\n\n13', {'a': 7, 'w': 1.25}, '\n\n\n\n14'], [{'x': 16.5, 'a': 4}, 'Ö\n\n\n\n19', 'Ä\n\n\n\n20', {'a': 7, 'w': 1.25}, '\n\n\n\n21'], [{'x': 16.5, 'a': 4}, ':\n.\n\n\n26', '_\n-\n\n\n27', {'a': 7, 'w': 1.25}, '\n\n\n\n28'], [{'x': 16.5}, '\n\n\n\n33', '\n\n\n\n34', {'w': 1.25}, '\n\n\n\n35'], [{'r': -30, 'rx': 13, 'ry': 4.25, 'x': -3.75}, '\n\n\n\n29'], [{'y': -0.75, 'x': -2.75}, '\n\n\n\n37'], [{'y': -0.25, 'x': -3.75}, '\n\n\n\n36'], [{'y': -0.75, 'x': -2.75, 'a': 4, 'h': 1.5}, 'ENTER\n\n\n\n39', {'h': 1.5}, 'ALT GR\n\n\n\n40'], [{'y': -0.25, 'x': -3.75}, 'SUPER\n\n\n\n38']]
+DEBUG: key_placer.py:724: Layout offset: (33337500, 28575000)
+DEBUG: board_modifier.py:94: Setting S3 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting S2 footprint position: (304800000, 61912500)
+DEBUG: board_modifier.py:94: Setting S4 footprint position: (342900000, 61912500)
+DEBUG: board_modifier.py:94: Setting S1 footprint position: (285750000, 66675000)
+DEBUG: board_modifier.py:94: Setting S10 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting S9 footprint position: (304800000, 80962500)
+DEBUG: board_modifier.py:94: Setting S11 footprint position: (342900000, 80962500)
+DEBUG: board_modifier.py:94: Setting S8 footprint position: (285750000, 85725000)
+DEBUG: board_modifier.py:94: Setting S17 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting S16 footprint position: (304800000, 100012500)
+DEBUG: board_modifier.py:94: Setting S18 footprint position: (342900000, 100012500)
+DEBUG: board_modifier.py:94: Setting S15 footprint position: (285750000, 104775000)
+DEBUG: board_modifier.py:94: Setting S24 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:94: Setting S23 footprint position: (304800000, 119062500)
+DEBUG: board_modifier.py:94: Setting S25 footprint position: (342900000, 119062500)
+DEBUG: board_modifier.py:94: Setting S22 footprint position: (285750000, 123825000)
+DEBUG: board_modifier.py:94: Setting S31 footprint position: (323850000, 133350000)
+DEBUG: board_modifier.py:94: Setting S30 footprint position: (304800000, 138112500)
+DEBUG: board_modifier.py:94: Setting S32 footprint position: (342900000, 138112500)
+DEBUG: board_modifier.py:94: Setting S5 footprint position: (361950000, 66675000)
+DEBUG: board_modifier.py:94: Setting S6 footprint position: (381000000, 66675000)
+DEBUG: board_modifier.py:94: Setting S7 footprint position: (402431250, 66675000)
+DEBUG: board_modifier.py:94: Setting S12 footprint position: (361950000, 85725000)
+DEBUG: board_modifier.py:94: Setting S13 footprint position: (381000000, 85725000)
+DEBUG: board_modifier.py:94: Setting S14 footprint position: (402431250, 85725000)
+DEBUG: board_modifier.py:94: Setting S19 footprint position: (361950000, 104775000)
+DEBUG: board_modifier.py:94: Setting S20 footprint position: (381000000, 104775000)
+DEBUG: board_modifier.py:94: Setting S21 footprint position: (402431250, 104775000)
+DEBUG: board_modifier.py:94: Setting S26 footprint position: (361950000, 123825000)
+DEBUG: board_modifier.py:94: Setting S27 footprint position: (381000000, 123825000)
+DEBUG: board_modifier.py:94: Setting S28 footprint position: (402431250, 123825000)
+DEBUG: board_modifier.py:94: Setting S33 footprint position: (361950000, 142875000)
+DEBUG: board_modifier.py:94: Setting S34 footprint position: (381000000, 142875000)
+DEBUG: board_modifier.py:94: Setting S35 footprint position: (402431250, 142875000)
+DEBUG: board_modifier.py:94: Setting S29 footprint position: (219075000, 119062500)
+DEBUG: board_modifier.py:94: Setting S37 footprint position: (238125000, 123825000)
+DEBUG: board_modifier.py:94: Setting S36 footprint position: (219075000, 138112500)
+DEBUG: board_modifier.py:94: Setting S39 footprint position: (238125000, 147637500)
+DEBUG: board_modifier.py:94: Setting S40 footprint position: (257175000, 147637500)
+DEBUG: board_modifier.py:94: Setting S38 footprint position: (219075000, 157162500)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=-9.58, y=2.53, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (285750000, 66675000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (276170000, 69205000)
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (304800000, 61912500)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (295220000, 64442500)
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (314270000, 59680000)
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (342900000, 61912500)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (333320000, 64442500)
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (361950000, 66675000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (352370000, 69205000)
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (381000000, 66675000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (371420000, 69205000)
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (402431250, 66675000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (392851250, 69205000)
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (285750000, 85725000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (276170000, 88255000)
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (304800000, 80962500)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (295220000, 83492500)
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (314270000, 78730000)
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (342900000, 80962500)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (333320000, 83492500)
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (361950000, 85725000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (352370000, 88255000)
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (381000000, 85725000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (371420000, 88255000)
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (402431250, 85725000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (392851250, 88255000)
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (285750000, 104775000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (276170000, 107305000)
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (304800000, 100012500)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (295220000, 102542500)
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (314270000, 97780000)
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (342900000, 100012500)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (333320000, 102542500)
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (361950000, 104775000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (352370000, 107305000)
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (381000000, 104775000)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (371420000, 107305000)
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (402431250, 104775000)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (392851250, 107305000)
+DEBUG: board_modifier.py:107: Getting S22 footprint position: (285750000, 123825000)
+DEBUG: board_modifier.py:94: Setting D22 footprint position: (276170000, 126355000)
+DEBUG: board_modifier.py:107: Getting S23 footprint position: (304800000, 119062500)
+DEBUG: board_modifier.py:94: Setting D23 footprint position: (295220000, 121592500)
+DEBUG: board_modifier.py:107: Getting S24 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:94: Setting D24 footprint position: (314270000, 116830000)
+DEBUG: board_modifier.py:107: Getting S25 footprint position: (342900000, 119062500)
+DEBUG: board_modifier.py:94: Setting D25 footprint position: (333320000, 121592500)
+DEBUG: board_modifier.py:107: Getting S26 footprint position: (361950000, 123825000)
+DEBUG: board_modifier.py:94: Setting D26 footprint position: (352370000, 126355000)
+DEBUG: board_modifier.py:107: Getting S27 footprint position: (381000000, 123825000)
+DEBUG: board_modifier.py:94: Setting D27 footprint position: (371420000, 126355000)
+DEBUG: board_modifier.py:107: Getting S28 footprint position: (402431250, 123825000)
+DEBUG: board_modifier.py:94: Setting D28 footprint position: (392851250, 126355000)
+DEBUG: board_modifier.py:107: Getting S29 footprint position: (232132202, 148742642)
+DEBUG: board_modifier.py:94: Setting D29 footprint position: (225100679, 155723686)
+DEBUG: board_modifier.py:107: Getting D29 footprint position: (225100679, 155723686)
+DEBUG: board_modifier.py:107: Getting S30 footprint position: (304800000, 138112500)
+DEBUG: board_modifier.py:94: Setting D30 footprint position: (295220000, 140642500)
+DEBUG: board_modifier.py:107: Getting S31 footprint position: (323850000, 133350000)
+DEBUG: board_modifier.py:94: Setting D31 footprint position: (314270000, 135880000)
+DEBUG: board_modifier.py:107: Getting S32 footprint position: (342900000, 138112500)
+DEBUG: board_modifier.py:94: Setting D32 footprint position: (333320000, 140642500)
+DEBUG: board_modifier.py:107: Getting S33 footprint position: (361950000, 142875000)
+DEBUG: board_modifier.py:94: Setting D33 footprint position: (352370000, 145405000)
+DEBUG: board_modifier.py:107: Getting S34 footprint position: (381000000, 142875000)
+DEBUG: board_modifier.py:94: Setting D34 footprint position: (371420000, 145405000)
+DEBUG: board_modifier.py:107: Getting S35 footprint position: (402431250, 142875000)
+DEBUG: board_modifier.py:94: Setting D35 footprint position: (392851250, 145405000)
+DEBUG: board_modifier.py:107: Getting S36 footprint position: (241657202, 165240426)
+DEBUG: board_modifier.py:94: Setting D36 footprint position: (234625679, 172221470)
+DEBUG: board_modifier.py:107: Getting D36 footprint position: (234625679, 172221470)
+DEBUG: board_modifier.py:107: Getting S37 footprint position: (251011236, 143342088)
+DEBUG: board_modifier.py:94: Setting D37 footprint position: (243979713, 150323132)
+DEBUG: board_modifier.py:107: Getting D37 footprint position: (243979713, 150323132)
+DEBUG: board_modifier.py:107: Getting S38 footprint position: (251182202, 181738210)
+DEBUG: board_modifier.py:94: Setting D38 footprint position: (244150679, 188719254)
+DEBUG: board_modifier.py:107: Getting D38 footprint position: (244150679, 188719254)
+DEBUG: board_modifier.py:107: Getting S39 footprint position: (262917486, 163964318)
+DEBUG: board_modifier.py:94: Setting D39 footprint position: (255885963, 170945362)
+DEBUG: board_modifier.py:107: Getting D39 footprint position: (255885963, 170945362)
+DEBUG: board_modifier.py:107: Getting S40 footprint position: (279415270, 154439318)
+DEBUG: board_modifier.py:94: Setting D40 footprint position: (272383747, 161420362)
+DEBUG: board_modifier.py:107: Getting D40 footprint position: (272383747, 161420362)
+DEBUG: key_placer.py:854: Placing additional elements for S7
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (402431250, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S29
+DEBUG: board_modifier.py:107: Getting S29 footprint position: (232132202, 148742642)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S3
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S20
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (381000000, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S17
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S6
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (381000000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S12
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (361950000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S23
+DEBUG: board_modifier.py:107: Getting S23 footprint position: (304800000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S22
+DEBUG: board_modifier.py:107: Getting S22 footprint position: (285750000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S37
+DEBUG: board_modifier.py:107: Getting S37 footprint position: (251011236, 143342088)
+DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S18
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (342900000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S1
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (285750000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S11
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (342900000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S4
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (342900000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S21
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (402431250, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S39
+DEBUG: board_modifier.py:107: Getting S39 footprint position: (262917486, 163964318)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S33
+DEBUG: board_modifier.py:107: Getting S33 footprint position: (361950000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST33 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S36
+DEBUG: board_modifier.py:107: Getting S36 footprint position: (241657202, 165240426)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S2
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (304800000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S14
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (402431250, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S28
+DEBUG: board_modifier.py:107: Getting S28 footprint position: (402431250, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S10
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S9
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (304800000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S16
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (304800000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S13
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (381000000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S8
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (285750000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S27
+DEBUG: board_modifier.py:107: Getting S27 footprint position: (381000000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S26
+DEBUG: board_modifier.py:107: Getting S26 footprint position: (361950000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S15
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (285750000, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S32
+DEBUG: board_modifier.py:107: Getting S32 footprint position: (342900000, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S31
+DEBUG: board_modifier.py:107: Getting S31 footprint position: (323850000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S19
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (361950000, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S34
+DEBUG: board_modifier.py:107: Getting S34 footprint position: (381000000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S24
+DEBUG: board_modifier.py:107: Getting S24 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S35
+DEBUG: board_modifier.py:107: Getting S35 footprint position: (402431250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S40
+DEBUG: board_modifier.py:107: Getting S40 footprint position: (279415270, 154439318)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S38
+DEBUG: board_modifier.py:107: Getting S38 footprint position: (251182202, 181738210)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S5
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (361950000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S25
+DEBUG: board_modifier.py:107: Getting S25 footprint position: (342900000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S30
+DEBUG: board_modifier.py:107: Getting S30 footprint position: (304800000, 138112500)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in /home/teo/AAegna_grejer/tangentbord/BoerdV2/RIGHT/BoerdRIGHT_V2/BoerdRIGHT_V2.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
